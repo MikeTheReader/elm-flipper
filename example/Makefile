@@ -22,6 +22,9 @@ $(ELM_BUILD): elm
 simple:
 	elm make --yes --output $(ELM_BUILD) $(SOURCE_DIR)/SimpleExample.elm
 
+mouseOver:
+	elm make --yes --output $(ELM_BUILD) $(SOURCE_DIR)/MouseOverExample.elm
+
 $(BUILD_DIR):
 	mkdir $(BUILD_DIR)
 

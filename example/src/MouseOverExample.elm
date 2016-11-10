@@ -1,7 +1,7 @@
 module Main exposing (..)
 
-import Html exposing (div, h3, text, img, Html)
 import Html.App as App
+import Html exposing (div, h3, text, img, Html)
 import Html.Attributes exposing (style, src)
 import Flipper exposing (Config, Action, initFlipper, update, view)
 
@@ -17,7 +17,7 @@ main =
 
 myConfig : Config
 myConfig =
-    { flipOnClick = True
+    { flipOnClick = False
     , heightInPixels = 200
     , widthInPixels = 200
     , front = front
@@ -29,7 +29,7 @@ front : Html Action
 front =
     div [ style [ ( "text-align", "center" ) ] ]
         [ h3 [] [ text "FRONT" ]
-        , div [] [ text "Click to flip" ]
+        , div [] [ text "Mouse Over to flip" ]
         ]
 
 

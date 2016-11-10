@@ -6,22 +6,15 @@
 Elm flipper is a simple component for creating a card-flipping behavior.
 
 
-## Running
+## Running Examples
 
-1. Install Gulp
+Currently, there are two examples, `simple` and `mouseOver`. Either of these can be run by using make under
+the example directory. This will build the files necessary to view the `example.html` file in a browser.
 
-    `npm install -g gulp`
+1. Run `elm package install` in the example directory
+2. Run `make simple` or `make mouseOver` to make the appropriate example.
 
-2. Install node dependencies
+## NOTE
 
-    `npm install`
-
-3. Install Elm dependencies
-
-    `elm package install` (And accept the plan)
-
-4. Run default gulp task
-
-    `gulp`
-
-This will start a server on your local machine at the default port of 4000. Point your browser at http://localhost:4000, and you can see the application.
+Very early stages, and I'm learning, so a bunch of what's in here right now is loosly formed. Please send me a
+message or start and issue for areas you see a lack of understanding. Thanks.
