@@ -5,7 +5,7 @@
 
 Elm flipper is a simple component for creating a card-flipping behavior.
 
-
+![alt tag](https://github.com/MikeTheReader/elm-flipper/blob/master/img/Flipper.gif?raw=true)
 ## Running Examples
 
 Currently, there are two examples, `simple` and `mouseOver`. Either of these can be run by using make under
