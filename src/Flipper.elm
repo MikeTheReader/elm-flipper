@@ -1,4 +1,4 @@
-module Flipper exposing (Config, Action, initFlipper, update, view)
+module Flipper exposing (Flipper, Config, Action, initFlipper, update, view)
 
 {-| Flipper is a component for presenting a flippable surface with a back and a front (think playing card). The card
 can be flipped on mouseover or onclick of the area.
@@ -8,6 +8,7 @@ can be flipped on mouseover or onclick of the area.
 @docs initFlipper
 
 # Elm Architecture
+@docs Flipper
 @docs Action
 @docs update
 @docs view
@@ -40,6 +41,7 @@ type alias Config =
     }
 
 
+{-| -}
 type alias Flipper =
     { flipped : Bool
     , config : Config

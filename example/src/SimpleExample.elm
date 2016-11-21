@@ -1,14 +1,13 @@
 module Main exposing (..)
 
-import Html exposing (div, h3, text, img, Html)
-import Html.App as App
+import Html exposing (div, h3, text, img, Html, beginnerProgram)
 import Html.Attributes exposing (style, src)
-import Flipper exposing (Config, Action, initFlipper, update, view)
+import Flipper exposing (Flipper, Config, Action, initFlipper, update, view)
 
 
-main : Program Never
+main : Program Never Flipper Action
 main =
-    App.beginnerProgram
+    beginnerProgram
         { model = initFlipper (myConfig)
         , view = view
         , update = update
